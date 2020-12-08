@@ -9,9 +9,13 @@ bits 64
 
 global assembly
 assembly:
-  mov  rax, 12345
-  push rax
+  mov eax, 0
 
-  mov rax, 112233
-  pop rax
+  mov rbx, 5
+  mov rcx, 7
+  cmp rbx, rcx
+  jle .end
+
+  mov eax, 1
+.end:
   ret
