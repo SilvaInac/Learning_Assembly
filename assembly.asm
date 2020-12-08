@@ -9,13 +9,11 @@ bits 64
 
 global assembly
 assembly:
-  mov eax, 0
+  mov eax, 3
+  call setarA
 
-  mov rbx, 5
-  mov rcx, 7
-  cmp rbx, rcx
-  jle .end
+  ret
 
-  mov eax, 1
-.end:
+setarA:
+  mov eax, 5
   ret
