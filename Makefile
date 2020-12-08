@@ -1,4 +1,4 @@
 all:
-	nasm *.asm -felf64
-	gcc -c *.c
-	gcc -no-pie *.o -o test
+	nasm assembly.asm -felf64
+	gcc -c main.c
+	gcc assembly.o main.o -o test -no-pie 

@@ -9,5 +9,6 @@ bits 64
 
 global assembly
 assembly:
-  mov eax, 777
+  mov eax, 0x66223344
+  mov ax, 0xaabb
   ret

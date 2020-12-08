@@ -4,6 +4,6 @@ int assembly(void);
 
 int main(void)
 {
-  printf("Resultado: %d\n", assembly());
+  printf("Resultado: %08x\n", assembly());
   return 0;
 }

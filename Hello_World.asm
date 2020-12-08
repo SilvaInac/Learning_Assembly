@@ -5,10 +5,4 @@
 ;Programa Hello World
 ;----------------------
 
-section .data:
-  msg db 'Hello, World',0xag
-  len equ $ - msg
-
-section .text:
-;;start
-global _start
+db 0x41, 0x42, 0x43, 0x44,"string", 0
