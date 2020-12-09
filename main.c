@@ -1,14 +1,13 @@
+
 #include <stdio.h>
 
 int assembly(void);
+extern int myVar;
 
 int main(void)
 {
-  printf("Resultado: %d\n", assembly());
+  printf("Valor: %d\n", myVar);
+  assembly();
+  printf("Valor: %d\n", myVar);
   return 0;
-}
-
-int number(void)
-{
-  return 777;
 }
