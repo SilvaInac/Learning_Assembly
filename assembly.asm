@@ -4,8 +4,6 @@
 ;----------------------
 ;Programa Hello World
 ;----------------------
-
-
 bits 64
 
 global myVar
