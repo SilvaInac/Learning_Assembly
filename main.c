@@ -7,3 +7,8 @@ int main(void)
   printf("Resultado: %d\n", assembly());
   return 0;
 }
+
+int number(void)
+{
+  return 777;
+}
